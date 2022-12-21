@@ -1,13 +1,3 @@
-# Praktikum11
-## exceptions hendling
-## Open and With
-| # | Biodata |
-| -------- | --- |
-| **Nama** | M. Hannata Zahri |
-| **NIM** | 312010318 |
-| **Kelas** | TI.20.A.2 |
-| **Mata Kuliah** | Bahasa Pemrograman |
-``` python
 print("="*3,'Membaca File txt',"="*3)
 file = open("data.txt", mode ="r")
 # print(file.read())
@@ -31,4 +21,3 @@ with open("data.txt", mode="r") as file:
     print(content,end="")
     print(f"apakah file sudah diclose : {file.closed}")
 print(f"apakah file sudah diclosed : {file.closed}")
-```
